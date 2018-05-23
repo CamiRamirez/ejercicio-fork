@@ -11,19 +11,57 @@
     <section class="first-section">
         <!-- ingresa tu nombre porfavor -->
         <h1>Ingresa tu nombre por favor:</h1>
-        <button id="button-name">Ingresar</button>
-        <input type="text">
-        <!-- datos curiosos de breaking bad -->
+        <button id="boton2" onclick = "getValue()">Ingresar</button>
+        <input type = "text" id = "name"  placeholder = "ingresa tu nombre" value = "" />
+        <p id = "mensaje bienvenida"> </p>
+
+        <!-- datos curiosos del rey leon -->
         <h1>Datos curiosos del Rey León</h1>
-        <button id="button-curiuos">Mostrar datos curiosos</button>
+        
+        <input type="button" value="Mostrar datos curiosos" 
+        onClick="document.getElementById('oculto').style.display='block'"> 
+
+        <div id="oculto" style="display:none"> 
+            <h2>Después de 22 años de estreno de uno de los más grandes clásicos de Disney, te presentamos datos que quizás no conocías</h2> 
+            <img src="http://e.radio-oxigeno.io/normal/2017/03/17/500150_366838.jpg">
+            <h3>1. En el primer guion de la película, llamado “El Rey de las Bestias” y luego “Rey de la Selva”, Scar no iba a tener parentesco alguno con Mufasa, es por ello que son tan diferentes. Además, en esta versión, Rafiki era un guepardo.
+               
+                <br/>2. Fue la primera historia original de la compañía Disney
+                
+                <br/>3. Las características voces de Timón y Pumba, Nathan Lane y Ernie Sabella respectivamente, hicieron casting para las hienas pero el director se dio cuenta que eran voces muy cómicas y que encajaban mejor como los personajes del jabali y suricata.                  
+                
+                <br/>4. “El león en la luna” era una canción que Sarabi le cantaba a Simba pero la producción decidió suprimir esa escena.
+
+                <br/> 5. La clásica canción Hakuna Matata no figuraba originalmente en el guión, en su lugar había una canción que trataba sobre comer insectos.
+            </h3>
+        </div> 
+        
         <!-- Ingresa tu correo -->
         <h1>Ingresa tu correo</h1>
         <button id="button-mail">Ingresar</button>
-        <input type="text">
-        <!-- Datos curiosos de otra serie -->
+        <input type="text" id='mail'>
+        
+        <!-- Datos curiosos de buscando a nemo -->
         <h1>Datos curiosos de Buscando a Nemo</h1>
-        <button id="button-curiuosDos">Mostrar datos curiosos</button>
-    </section>
+        
+        <input type="button" value="Mostrar datos curiosos" 
+        onClick="document.getElementById('ocultoDos').style.display='block'"> 
+
+        <div id="ocultoDos" style="display:none"> 
+                <h2>Averigua cuánto sabías con estos datos curiosos sobre Buscando a Nemo.</h2> 
+                <img src="https://http2.mlstatic.com/a-stickers-buscando-a-nemo-para-banohabitacion-infantil-D_NQ_NP_127405-MLM20859282648_082016-F.jpg">
+                <h3>  1. Una muerte anunciada. Los creadores del filme no tenían pensando mostrar la secuenciacuando la madre de Nemo es tragada por una barracuda, sino algo más sencillo, pero se decidió que se tenía que mostrar por qué Marlin es un padre sobreprotector y este momento explica el porqué de su actitud. 
+                   
+                    <br/>2. Todos tienen nombre. En las cintas de animación es necesario que cada personaje tenga un nombre para que los modelos puedan ser identificados, así que eso se tuvo que hacer, bautizar a cada pez. 
+                    
+                    <br/>3.  Toy Story presente. Como una prueba de la familiaridad entre las cintas de Pixar, en Buscando a Nemo, en el consultorio del dentista, para ser precisos, resalta Buzz Lightyear, que está entre los juguetes del doctor.
+                    
+                    <br/>4. Tiburón. Bruce, el tiburón vegetariano de la historia, debe su nombre al modelo mecánico de tiburón que usó Steven Spielberg para su filme Tiburón (1975). Y recuerda, "los peces son amigos, no comida".
+    
+                    <br/> 5. Sangre. Buscano a Nemo es la primera cinta de Pixar en la que se muestra sangre. Sí, todo fue gracias al momento en que ´Dory´ sangra por la nariz... ¡Peligro!. 
+            
+        </div> 
+
     <!-- Scripts -->
     <script src="assets/js/app.js"></script>
 </body>
